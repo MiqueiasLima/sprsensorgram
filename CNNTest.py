@@ -209,7 +209,7 @@ reduce_lr = ReduceLROnPlateau(
 )
 
 model_checkpoint = ModelCheckpoint(
-    filepath='h5/best_model_val_mae.h5',
+    filepath='best_model_val_mae.h5',
     monitor='val_mae',
     save_best_only=True,
     mode='min',
