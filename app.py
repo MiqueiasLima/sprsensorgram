@@ -15,6 +15,7 @@ def calcular_mae(y_original, y_previsao):
     """
     Calcula o Erro Médio Absoluto (MAE).
 
+
     Args:
         y_original (np.array): O array de valores reais (observados).
         y_previsao (np.array): O array de valores previstos.
