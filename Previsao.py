@@ -17,8 +17,8 @@ n_blocos = 1  # total de blocos para previsão (ex: 2 x 30 = 60 pontos)
 
 # === Caminhos dos arquivos locais ===
 caminho_sensorgrama = 'Data/BK7-Au.txt'
-caminho_scaler = 'scaler_s100_n2000.gz'
-caminho_modelo = 'melhor_s100_n2000.h5'
+caminho_scaler = 'gz/scaler_s100_n2000.gz'
+caminho_modelo = 'h5/melhor_s100_n2000.h5'
 
 # === Carregar dados do sensorgrama ===
 dados_originais = np.loadtxt(caminho_sensorgrama)
