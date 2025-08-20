@@ -1,14 +1,12 @@
 import streamlit as st
 import numpy as np
-import matplotlib as plt
+import matplotlib.pyplot as plt
 from tensorflow.keras.models import load_model
 from tensorflow.keras.losses import MeanSquaredError
 import joblib
-from sklearn.preprocessing import MinMaxScaler
 from scipy.signal import savgol_filter
 from sklearn.metrics import r2_score, mean_absolute_error, mean_squared_error
-import tempfile
-import os
+
 
 
 def calcular_mae(y_original, y_previsao):
