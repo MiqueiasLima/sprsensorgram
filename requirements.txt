@@ -2,7 +2,7 @@ pandas
 streamlit
 numpy
 matplotlib
-tensorflow
+tensorflow=2.10.0
 joblib
 scikit-learn
 scipy
